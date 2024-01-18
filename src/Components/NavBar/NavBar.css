@@ -4,8 +4,8 @@
     width: 80px;
 }
 .avatar{
-    position: fixed;
-    right: 20px;
+    /* position: fixed;
+    right: 20px; */
     width: 30px;
 }
 .navbar{
@@ -15,6 +15,25 @@
     height: 30px;
     padding: 20px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     background-color: #111;
+    color: white;
+    align-items: center;
 } 
+.icon-container{
+    width: 50%;
+    height: 30px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 2rem;
+    color: white;
+    padding-right: 30px;
+}
+.logo-container{
+    width: 50%;
+    height: 30px;
+    
+}
+
